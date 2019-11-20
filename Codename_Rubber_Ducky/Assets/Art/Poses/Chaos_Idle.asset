@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae0543fe805424df99fe08ce744cbe49, type: 3}
+  m_Name: Chaos_Idle
+  m_EditorClassIdentifier: 
+  m_PoseEntries:
+  - path: Skeleton/Hip
+    localPosition: {x: -0.11569071, y: -0.50938725, z: 5.9552383}
+    localRotation: {x: 0, y: 0, z: 0.7503913, w: 0.6609939}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/Body
+    localPosition: {x: 0.14925423, y: 0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.15170327, w: 0.9884261}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/Body/Head
+    localPosition: {x: 0.40745702, y: 9.313226e-10, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.12201799, w: 0.9925279}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/Body/L_Upper_Arm
+    localPosition: {x: 0.1376381, y: 0.18069614, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.95462555, w: 0.2978087}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/Body/L_Upper_Arm/L_Lower_Arm
+    localPosition: {x: 0.33631548, y: -0.000000059604645, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.44490048, w: 0.89558}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: 'Skeleton/Hip/Body/R_Upper_Arm '
+    localPosition: {x: 0.1866776, y: -0.09645522, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.98790634, w: 0.15505207}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/Body/R_Upper_Arm /R_Lower_Arm
+    localPosition: {x: 0.27132615, y: 0.000000029802322, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.31193182, w: 0.95010453}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/L_Upper_Leg
+    localPosition: {x: -0.029295493, y: 0.08579625, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9999995, w: 0.0010182465}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/L_Upper_Leg/L_Lower_Leg
+    localPosition: {x: 0.20000033, y: 0.00000008568168, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.29886577, w: 0.95429516}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/L_Upper_Leg/L_Lower_Leg/L_Foot
+    localPosition: {x: 0.19579181, y: -0.000000007450581, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.671624, w: 0.74089223}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/R_Upper_Leg
+    localPosition: {x: -0.053200036, y: -0.09014022, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.9959645, w: 0.08974844}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/R_Upper_Leg/R_Lower_Leg
+    localPosition: {x: 0.21701331, y: 0.000000007450581, z: 0}
+    localRotation: {x: 0, y: 0, z: -0.31883046, w: 0.9478118}
+    localScale: {x: 1, y: 1, z: 1}
+  - path: Skeleton/Hip/R_Upper_Leg/R_Lower_Leg/R_Foot
+    localPosition: {x: 0.18207057, y: 0.000000117346644, z: 0}
+    localRotation: {x: 0, y: 0, z: 0.71970993, w: 0.69427496}
+    localScale: {x: 1, y: 1, z: 1}

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - SpawnPoint
+  - Countdown
+  - Death
+  - MovingPlatform
+  - Platform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Players
+  - Platform
+  - Falling
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 1425125731
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 4280511241
+    locked: 0
+  - name: Astronaut
+    uniqueID: 1797552591
+    locked: 0
+  - name: ChaosBunny
+    uniqueID: 87247063
+    locked: 0
+  - name: Knight
+    uniqueID: 3740310967
+    locked: 0
+  - name: SteampunkGuy
+    uniqueID: 3503095587
+    locked: 0

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5830033384015212296
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5830033384015212297}
+  - component: {fileID: 5830033384015212302}
+  m_Layer: 0
+  m_Name: GM_CharacterSelection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5830033384015212297
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830033384015212296}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5830033384015212302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5830033384015212296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea5201a14f36f54d8003cff7ba54a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emptyBG: {fileID: 21300000, guid: 2e262c46c4f157c438a0d07c268b564e, type: 3}
+  charImageList:
+  - charBackground: {fileID: 21300000, guid: 6eafd5b23d93eb640875a8481e49292a, type: 3}
+    charPose: {fileID: 8595241757449769668, guid: 382e053c2056f3b45a081a17459ff018,
+      type: 3}
+    charNameTag: {fileID: 21300000, guid: f40cb240d8db38f48911fab5156e7a1f, type: 3}
+    charModel: {fileID: 8595241757449769668, guid: 8214cc21f47bb9143a8078f2ea2c4f00,
+      type: 3}
+  - charBackground: {fileID: 21300000, guid: e613881de62ff4b40a685dec4b761781, type: 3}
+    charPose: {fileID: 5334959140378407810, guid: 98659a73b02d38c42aeac246b09bf19b,
+      type: 3}
+    charNameTag: {fileID: 21300000, guid: 4d126729749fbe747bf1a6839f8413bd, type: 3}
+    charModel: {fileID: 5334959140378407810, guid: 5448614dd6f5bf141a95d13f9785b8f8,
+      type: 3}
+  - charBackground: {fileID: 21300000, guid: a4e790a2c15aa4d4dbc242f42f68feb5, type: 3}
+    charPose: {fileID: 786707076677989970, guid: 1ef0edea787fcd6409a19fde2a580914,
+      type: 3}
+    charNameTag: {fileID: 21300000, guid: 17fdf08aab7fb284388cd6e401504892, type: 3}
+    charModel: {fileID: 786707076677989970, guid: bf7244488d66e2a409b1e4c9804e1c86,
+      type: 3}
+  - charBackground: {fileID: 21300000, guid: 6175412beda25ca49bccbb899db54f88, type: 3}
+    charPose: {fileID: 1687367672494996617, guid: 0e2323c0a2678e84d8b56055112b2e67,
+      type: 3}
+    charNameTag: {fileID: 21300000, guid: 28f3332961ed5f14dbe5df8b6b8db6ab, type: 3}
+    charModel: {fileID: 1687367672494996617, guid: 4f18728c3f3eaaf49a8fd08983bf160b,
+      type: 3}
+  selectInputCheckTimer: 0.2
+  idleTimer: 60
+  countdown: 4
